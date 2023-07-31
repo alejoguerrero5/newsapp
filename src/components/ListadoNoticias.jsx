@@ -23,6 +23,24 @@ const ListadoNoticias = () => {
                 Last News
             </Typography>
 
+            <Stack
+                sx={{
+                    marginY: 5
+                }}
+                spacing={2}
+                direction={'row'}
+                justifyContent='center'
+                alignItems='center'
+            >
+                <Pagination
+                    count={totalPaginas}
+                    variant="outlined"
+                    color="primary"
+                    onChange={handleChangePage}
+                    page={pagina}
+                />
+            </Stack>
+
             <Grid
                 container
                 spacing={2}
