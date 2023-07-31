@@ -12,7 +12,7 @@ function App() {
       <Container>
         <header>
           <Typography align='center' marginY={5} component='h1' variant='h3'>
-            Buscador de Noticias
+            News Search Engine
           </Typography>
         </header>
 

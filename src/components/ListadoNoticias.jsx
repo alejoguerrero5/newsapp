@@ -17,7 +17,7 @@ const ListadoNoticias = () => {
                 variant='h3'
                 component={'h2'}
             >
-                Úiltimas Noticias
+                Last News
             </Typography>
 
             <Grid
